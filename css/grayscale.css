@@ -9,7 +9,7 @@ body {
     height: 100%;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #1975FF;
-    background-color: #000;
+    background-color: #FFFFFF;
 }
 
 html {
@@ -147,8 +147,9 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: ##1975FF;
-    background: url() no-repeat bottom center scroll;
-    background-color: #000;
+    background: url(http://www.buffalonews.com/storyimage/BN/20140311/BUSINESS/140319863/EP/1/1/EP-140319863.jpg&maxW=960) 
+    no-repeat bottom center scroll;
+    background-color: #FFFFFF;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -262,23 +263,18 @@ a:focus {
     padding-top: 100px;
 }
 
-/*.download-section {
+.about {
     width: 100%;
-    padding: 50px 0;
-    color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: #000;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: ##1975FF;
+    background: url() no-repeat bottom center scroll;
+    background-color: #FFFFFF;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-}*/
-
-.schedule table{
-    width: 760px;
-    margin-bottom: 20px;
-    overflow: hidden;
-    border-top: 1px solid #ccc;
 }
 .schedule {
     line-height: 1.5em;
@@ -303,7 +299,7 @@ a:focus {
         padding-top: 250px;
     }
 
-    .download-section {
+    .about {
         padding: 100px 0;
     }
 
