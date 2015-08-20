@@ -45,7 +45,8 @@ p {
 }
 
 a {
-    color: #42dca3;
+    color: #FFD633;
+    font-weight: bold;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -53,8 +54,8 @@ a {
 
 a:hover,
 a:focus {
-    text-decoration: none;
-    color: #1d9b6c;
+    text-decoration: underline;
+    color: #FFD633;
 }
 
 .light {
@@ -280,12 +281,6 @@ a:focus {
     border-bottom: 1px ;
     float: left;
     display: inline;
-}
-#triple li{
-    width: 33.333%;
-}
-#day li{
-
 }
 
 @media(min-width:767px) {
