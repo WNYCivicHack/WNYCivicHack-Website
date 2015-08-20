@@ -34,6 +34,10 @@ p {
     margin: 0 0 25px;
     font-size: 18px;
     line-height: 1.5;
+    -o-user-select: text;
+    -moz-user-select: text;
+    -webkit-user-select: text;
+    user-select: text;
 }
 
 @media(min-width:768px) {
@@ -354,14 +358,12 @@ footer p {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #fcfcfc;
+    background: #B8B8FF;
     background: rgba(255,255,255,.2);
 }
 
 ::selection {
-    text-shadow: none;
-    background: #fcfcfc;
-    background: rgba(255,255,255,.2);
+    background: #B8B8FF;
 }
 
 img::selection {
