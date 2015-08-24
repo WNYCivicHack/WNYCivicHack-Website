@@ -49,7 +49,7 @@ p {
 }
 
 a {
-    color: #FFD633;
+    color: #FFFF33;
     font-weight: bold;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
@@ -287,6 +287,9 @@ a:focus {
     display: inline;
 }
 
+a[target="_blank"]{
+    color: #005CE6
+}
 @media(min-width:767px) {
     .content-section {
         padding-top: 100px;
