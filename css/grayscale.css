@@ -288,7 +288,7 @@ a:focus {
 }
 
 a[target="_blank"]{
-    color: #005CE6
+    color: #428bca
 }
 
 @media(min-width:767px) {
