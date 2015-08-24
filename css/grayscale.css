@@ -290,6 +290,7 @@ a:focus {
 a[target="_blank"]{
     color: #005CE6
 }
+
 @media(min-width:767px) {
     .content-section {
         padding-top: 100px;
